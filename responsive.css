@@ -1,5 +1,5 @@
 /*スマホ向けレイアウト*/
-@media(max-width:940px){
+@media(max-width:670px){
   .lesson {
     width: 100%;
   }
