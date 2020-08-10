@@ -83,7 +83,7 @@ li {
 }
 
 .container {
-  width: 1200px;
+
   margin: 0 auto
 }
 
@@ -201,4 +201,5 @@ input,textarea {
   background-color: #778899;
   text-align: center;
   height: auto;
+  width: 100%;
 }
