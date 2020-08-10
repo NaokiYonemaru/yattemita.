@@ -12,11 +12,7 @@ form, input, div {
   box-sizing: border-box;
 }
 
-body {
-  -webkit-text-size-adjust: 100%;
-}
-
-li a{
+li a {
   color: white;
   background-color: #F59A01;
 }
