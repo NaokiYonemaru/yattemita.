@@ -22,7 +22,9 @@
   }
   .contact {
     text-align: center;
-    margin-bottom: 100px;
+  }
+  .contact-submit {
+    margin-bottom: 50px;
   }
   footer {
     text-align: center;
