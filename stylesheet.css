@@ -1,3 +1,4 @@
+/* CSSのリセット（消さないでください） */
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
@@ -72,6 +73,7 @@ li {
   background-image: url(file:///Users/beimarunaoki/Downloads/seb.sea.JPG);
   background-size: cover;
   padding-top: 100px;
+  width: 100%;
 }
 
 .top-wrapper h1 {
@@ -127,6 +129,7 @@ li {
   height: 500px;
   background-color: #f7f7f7;
   text-align: center;
+  width: 100%;
 }
 
 .heading h2 {
@@ -185,6 +188,7 @@ li {
 
 .contact h3 {
   border-bottom: 2px solid #000000;
+  width: 100%;
 }
 
 input,textarea {
