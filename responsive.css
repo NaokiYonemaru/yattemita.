@@ -1,19 +1,29 @@
 /*スマホ向けレイアウト*/
 @media all and (max-width: 670px){
+
+  .header-right {
+    display: none;
+  }
+  .fas.menu-icon {
+    display: block;
+  }
+  .top-wrapper h1 {
+    font-size: 50px;
+  }
+  .section-title span {
+    color: #8a2be2;
+  }
   .lesson {
     width: 100%;
-  }
-  footer {
-    text-align: center;
   }
   .btn {
     width: 50%;
   }
   .contact {
     text-align: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
-  .section-title span {
-    color: #8a2be2;
+  footer {
+    text-align: center;
   }
 }
