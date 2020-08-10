@@ -1,0 +1,200 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+/*書いてみた*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
+li a{
+  color: white;
+  background-color: #F59A01;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  height: 50px;
+  background-color: rgba(34, 49, 52, 0.9);
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+
+.fab {
+  font-size: 30px;
+  margin: 10px 0 0 15px;
+  color: #1e90ff;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(245,245,245,0.7);
+  transition: all 0.7s;
+}
+
+.header-right:hover {
+  background-color: rgba(245,245,245,1);
+}
+
+.header-right a {
+  line-height: 50px;
+  padding: 0 20px;
+  display: block;
+  color: #000000;
+}
+
+/*ここまでヘッダー*/
+.main {
+  height: 1800px;
+}
+
+.top-wrapper {
+  heigth: 500px;
+  background-color: #000000;
+  padding: 30px 20px 400px 20px;
+  background-image: url(file:///Users/beimarunaoki/Downloads/seb.sea.JPG);
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.top-wrapper h1 {
+  opacity: 0.6;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto
+}
+
+.section-title {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.section-title span {
+  color: red;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 7px;
+  opacity: 0.7;
+  padding: 15px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.twitter-icon {
+  float: left;
+}
+
+.twitter {
+  background-color: #1D91DA;
+  margin-right: 30px;
+}
+
+.instagram {
+  background-color: #FC1F1C;
+}
+
+.fa {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading h2 {
+  font-weight: normal;
+  padding: 30px 0 30px 0;
+}
+
+.lesson {
+  float: left;
+  width: 33%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  display: inline-block;
+  color: #b3aeb5;
+}
+
+.clear {
+  clear: left;
+}
+
+.message-wrapper {
+  text-align: center;
+}
+
+.message {
+  background-color: #008b8b;
+  color: white;
+  cursor: alias;
+  box-shadow: 5px 5px #000000;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+  left:5px;
+}
+
+.contact {
+  padding: 20px;
+}
+
+.contact h3 {
+  border-bottom: 2px solid #000000;
+}
+
+input,textarea {
+  padding: 0px 100px 20px 0px;
+  width: 200px;
+}
+
+.footer {
+  height: 70px;
+  background-color: #778899;
+  text-align: center;
+  height: auto;
+}
