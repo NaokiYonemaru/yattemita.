@@ -1,5 +1,5 @@
 /*スマホ向けレイアウト*/
-@media(max-width:670px){
+@media all and (max-width: 670px){
   .lesson {
     width: 100%;
   }
@@ -11,5 +11,9 @@
   }
   .contact {
     text-align: center;
+    padding-bottom: 30px;
+  }
+  .section-title span {
+    color: #8a2be2;
   }
 }
