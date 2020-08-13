@@ -157,6 +157,31 @@ li {
   color: white;
 }
 
+.flex-icon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-icon li {
+  flex: auto;
+  text-align: center;
+  width: 50%;
+  padding: 60px 0;
+}
+
+.a {
+  background-color: #dcdcdc;
+}
+.b {
+  background-color: #d3d3d3;
+}
+.c {
+  background-color: #c0c0c0;
+}
+.d {
+  background-color: #a9a9a9;
+}
+
 .txt-contents {
   display: inline-block;
   color: #b3aeb5;
